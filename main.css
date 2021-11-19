@@ -1,0 +1,57 @@
+body {
+    background-color: #222;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    padding-top: 0;
+}
+#coder {
+    width: 25%;
+    height: 80vh;
+
+}
+#output {
+    width: 75%;
+    height: 80vh;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom:1rem;
+    justify-content: space-between;
+}
+h4 {
+    flex-direction: column;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:.1rem ;
+}
+a, a:visited{
+    color: rgb(46, 144, 255);
+}
+button{
+    margin-left: .5rem;
+}
+.play {
+    border: none;
+    margin-left: .5rem;
+    padding: .2rem .6rem;
+    background-color: #00cc11;
+    color: white;
+    font-family: monospace;
+}
+
+@media only screen 
+   and (max-width : 768px) {
+   .container {
+       flex-direction: column;
+   }
+   #coder {
+    width: 100%;
+}
+#output {
+    width: 100%;
+
+}
+}
